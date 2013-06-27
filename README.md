@@ -17,7 +17,7 @@ naming-conventions
 
 ## 메서드명
 
-### make & create
+### make vs. create
 - make: 어떤 틀에서 만들어낸다.
 - create: 아무 것도 없는 것에서 만들어낸다.
 
@@ -25,7 +25,7 @@ naming-conventions
         function createRandomNumber();
 
 
-### remove & delete
+### remove vs. delete
 - remove: 복구할 수 없도록 완전히 제거한다.
 - delete: 삭제하지만, 보이지 않거나 또는 다시 복구할 수 있다.
 
@@ -51,3 +51,8 @@ naming-conventions
             return false;
           }
         }
+
+
+### push & pop
+### add & remove
+

@@ -25,6 +25,12 @@ naming-conventions
         };
 
 
+### 정규식
+`r` 접두사를 쓴다.
+
+        var rName = /^[a-zA-Z]+$/;
+
+
 
 ## 메서드명
 

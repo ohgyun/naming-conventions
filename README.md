@@ -14,6 +14,17 @@ naming-conventions
         fruitList = new FruitList('Apple', 'Banana', 'Cherry');
 
 
+### 복수형과 Map
+- 복수형: 네이티브 배열
+- Map: key/value를 가진 맵
+
+        var handlers: [ func, func, func, ... ];
+        var handlerMap = {
+          onclick: func,
+          onmousemove: func
+        };
+
+
 
 ## 메서드명
 

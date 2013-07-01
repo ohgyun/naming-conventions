@@ -10,15 +10,15 @@ naming-conventions
 - 복수형: 어떤 요소를 포함한 네이티브 배열
 - List: 어떤 요소의 집합을 래핑한 컬렉션인 경우
 
-        fruits = [ 'Apple', 'Banana', 'Cherry' ];
-        fruitList = new FruitList('Apple', 'Banana', 'Cherry');
+        var fruits = [ 'Apple', 'Banana', 'Cherry' ];
+        var fruitList = new FruitList('Apple', 'Banana', 'Cherry');
 
 
 ### 복수형과 Map
 - 복수형: 네이티브 배열
 - Map: key/value를 가진 맵
 
-        var handlers: [ func, func, func, ... ];
+        var handlers = [ func, func, func, ... ];
         var handlerMap = {
           onclick: func,
           onmousemove: func

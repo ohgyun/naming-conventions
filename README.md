@@ -34,7 +34,7 @@ naming-conventions
 
 ## 메서드명
 
-### make vs. create
+### makeX vs. createX
 - make: 어떤 틀에서 만들어낸다.
 - create: 아무 것도 없는 것에서 만들어낸다.
 
@@ -42,9 +42,9 @@ naming-conventions
         function createRandomNumber();
 
 
-### remove vs. delete
-- remove: 복구할 수 없도록 완전히 제거한다.
-- delete: 삭제하지만, 보이지 않거나 또는 다시 복구할 수 있다.
+### removeX vs. deleteX
+- removeX: 복구할 수 없도록 완전히 제거한다.
+- deleteX: 삭제하지만, 보이지 않거나 또는 다시 복구할 수 있다.
 
 
 ### X & tryX
@@ -69,6 +69,10 @@ naming-conventions
           }
         }
 
+
+### cleanX & clearX
+- cleanX: 지저분한 것들을 깨끗이 치운다. 예) 빌드 전 디렉토리를 지운다.
+- clearX: 방해가 되는 것들을 치운다. 예) 음?
 
 ### push & pop
 ### add & remove

@@ -31,6 +31,22 @@ naming-conventions
         var rName = /^[a-zA-Z]+$/;
 
 
+## 메서드의 파라미터
+
+필수인 경우 각각의 인자로 정의하고, 옵션인 경우 `opts`라는 이름의 객체로 받는다.
+
+````
+function registerUser(id, name, opts) {
+  // id, name은 필수
+  // opts는 옵션
+}
+
+registerUser(1234, 'user a', {
+  phone: '123-1234',
+  address: 'Seoul'
+});
+````
+
 
 ## 메서드명
 
